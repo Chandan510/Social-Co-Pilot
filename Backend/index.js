@@ -9,7 +9,7 @@ app.use(cors());
 
 import 'dotenv/config'
 
-
+const PORT = process.env.VITE_PORT || 3000;
 
 app.get("/analyze-post", async (req, res) => {
   const prompt = req.query.prompt;
@@ -34,6 +34,8 @@ app.get("/post-stats", async (req, res) => {
   }
 });
 
-app.listen(8000, () => {
-  console.log("Server running at ", 8000);
+app.listen(PORT, () => {
+  console.log("Server running at ", PORT);
 });
+
+export default app
