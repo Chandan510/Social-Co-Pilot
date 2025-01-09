@@ -14,7 +14,6 @@ async function getResultFromAI(question) {
       "Content-Type": "application/json",
     };
 
-    console.log("HEADER -> ", headers);
 
     const body = {
       input_value: question,
@@ -34,20 +33,15 @@ async function getResultFromAI(question) {
       body: JSON.stringify(body),
     });
 
-    console.log("From Langflow API function: ", response);
 
     const textResponse = await response.json();
-    console.log(textResponse.outputs[0].inputs.input_value);
-    console.log(textResponse.outputs[0].outputs[0].artifacts.message);
 
     const newMessage = {
       input: textResponse.outputs[0].inputs.input_value,
       output: textResponse.outputs[0].outputs[0].artifacts.message,
     };
 
-    // console.log("From API calling: ", answer);
     return { question: newMessage.input, answer: newMessage.output };
-    // return 'Hi';
   } catch (error) {
     console.log(error);
     if (error.response && error.response.status === 429) {

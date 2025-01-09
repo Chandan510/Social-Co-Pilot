@@ -17,3 +17,11 @@ html, body, #root {
         scrollbar-width: none;  /* Firefox */
   }
 }
+
+
+@font-face{
+    font-family: "earth";
+    src:local("earth"),
+    url('./assets/fonts/earth.ttf') 
+  }
+  

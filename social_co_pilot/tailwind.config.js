@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        dd: ['digital_desolation']
+        earth: ['earth']
       }
     },
   },

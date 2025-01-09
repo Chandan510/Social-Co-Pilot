@@ -18,7 +18,6 @@ async function getAnalyticsDataFromDB() {
     total_shares_db += parseInt(doc[i].shares);
   }
 
-  console.log("Connected to AstraDB:", total_likes_db, total_comments_db,total_shares_db );
   return {
     total_likes: total_likes_db,
     total_comments: total_comments_db,

@@ -1,6 +1,5 @@
-import { useState } from "react";
 import React from "react";
-import sendIcon from "../assets/images/send-icon.svg";
+import sendIcon from "../assets/images/ai.png";
 
 function ChatResponse({ question, answer }) {
   
@@ -22,9 +21,9 @@ function ChatResponse({ question, answer }) {
 
   return (
     <div className="w-full h-fit border-b-2 border-[#f5f5f5] min-h-14 flex-col   items-center p-2 mb-5 ">
-      <div className="flex">
-        <img src={sendIcon} className="h-full w-10 p-2" />
-        <div className="ms-5 h-full w-full break-words">{question}</div>
+      <div className="flex ">
+        <img src={sendIcon} className="h-full w-10" />
+        <div className="ms-5   my-auto w-full break-words font-bold">{question}</div>
       </div>
 
       <div className="flex">
