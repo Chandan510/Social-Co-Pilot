@@ -1,6 +1,6 @@
 # Hello Everyone
 
-We are team Bharat-Tech showcasing our Gen-AI application called **"Social Co-Pilot"**.  
+We are team Bharat-Tech showcasing our Gen-AI application called **"Social Co-Pilot"** to LEVEL SUPER MIND & CHAI AUR CODE.  
 Social Co-Pilot AI application is used to get analytics and insights from your social media accounts using AI.
 
 In this app we have used the Gen-AI platform **Langflow** and **ASTRADB** database.
