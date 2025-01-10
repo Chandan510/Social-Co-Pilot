@@ -1,6 +1,13 @@
-# Hello Everyone
+# Social Co-Pilot AI App
 
-We are team Bharat-Tech showcasing our Gen-AI application called **"Social Co-Pilot"** to LEVEL SUPER MIND & CHAI AUR CODE.  
+<br/>
+
+> ### Updated Youtube Link: https://youtu.be/mUViL7D0iNQ
+
+<br/>
+<br/>
+Hello everyone,<br/>
+We are team Bharat-Tech showcasing our Gen-AI application called **Social Co-Pilot** to LEVEL SUPER MIND & CHAI AUR CODE.  <br/>
 Social Co-Pilot AI application is used to get analytics and insights from your social media accounts using AI.
 
 In this app we have used the Gen-AI platform **Langflow** and **ASTRADB** database.
@@ -17,7 +24,7 @@ In this app we have used the Gen-AI platform **Langflow** and **ASTRADB** databa
 4. **React JS** for frontend and **Node JS** for backend.
 5. **Vercel** for final deployment.
 
-## Our Flow:
+## Flow:
 
 1. **AstraDB Database setup**:  
    First of all, we have created a database in AstraDB and imported our demo social media CSV file into it.
@@ -42,4 +49,4 @@ In this app we have used the Gen-AI platform **Langflow** and **ASTRADB** databa
 ---
 
 
-**Chandan Suthar** & **Dhaval Tarkhala** , 2nd-year B.Tech students from Ahmedabad.
+Developed by: **Chandan Suthar** & **Dhaval Tarkhala** , 2nd-year B.Tech students from Ahmedabad.
