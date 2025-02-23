@@ -25,3 +25,10 @@ html, body, #root {
     url('./assets/fonts/earth.ttf') 
   }
   
+
+@font-face{
+    font-family: "cramble";
+    src:local("cramble"),
+    url('./assets/fonts/cramble.otf') 
+  }
+  

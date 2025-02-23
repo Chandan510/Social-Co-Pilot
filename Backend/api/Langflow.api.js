@@ -1,8 +1,9 @@
 
 async function getResultFromAI(question) {
   try {
-    const APPLICATION_TOKEN = process.env.VITE_LANGFLOW_APPLICATION_TOKEN;
-    const LANGFLOW_URL = process.env.VITE_LANGFLOW_URL;
+    console.log("Inside getResults")
+    const APPLICATION_TOKEN = 'AstraCS:XTYIPJAdguyIpvkNQxaZlQTa:5593939f7b7fa8673c45c8001b6caacd650955125b2d34d93068d89947944ab6'
+    const LANGFLOW_URL = 'https://api.langflow.astra.datastax.com/lf/77f3da90-2eca-4299-b628-29f03bb26822/api/v1/run/3f7a47fd-2ddf-4b70-9bce-b75e24dd5f97?stream=false'
 
     if (!APPLICATION_TOKEN || !LANGFLOW_URL) {
       throw new Error(
@@ -33,7 +34,7 @@ async function getResultFromAI(question) {
       body: JSON.stringify(body),
     });
 
-
+    // console.log("Inside getResults response ", response)
     const textResponse = await response.json();
 
     const newMessage = {

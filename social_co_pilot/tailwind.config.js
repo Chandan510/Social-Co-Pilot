@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        earth: ['earth']
+        earth: ['earth'],
+        cramble: ['cramble']
       }
     },
   },
